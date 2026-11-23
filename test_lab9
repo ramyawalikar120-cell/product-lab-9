@@ -1,0 +1,16 @@
+from lab9 import product_details
+
+
+def test_product_one():
+    assert product_details(101, "Pen", 10, 5.5) == \
+        "Product ID: 101, Name: Pen, Quantity: 10, Price: 5.50"
+
+
+def test_product_two():
+    assert product_details(102, "Notebook", 5, 40) == \
+        "Product ID: 102, Name: Notebook, Quantity: 5, Price: 40.00"
+
+
+def test_product_three():
+    assert product_details(103, "Bag", 2, 799.99) == \
+        "Product ID: 103, Name: Bag, Quantity: 2, Price: 799.99"
