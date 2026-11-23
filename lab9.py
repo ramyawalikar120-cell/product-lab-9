@@ -1,0 +1,6 @@
+def product_details(pid, name, quantity, price):
+    return f"Product ID: {pid}, Name: {name}, Quantity: {quantity}, Price: {price:.2f}"
+
+
+if __name__ == "__main__":
+    print(product_details(101, "Pen", 10, 5.5))
